@@ -12,6 +12,7 @@ tags:
   - 散点图
   - 散点图矩阵
 slug: scatterplot-matrix-visualization
+forum_id: 418781
 ---
 
 散点图矩阵是散点图的高维扩展，它从一定程度上克服了在平面上展示高维数据的困难，在展示多维数据的两两关系时有着不可替代的作用。R 软件就包含了各种不同版本的散点图函数，本文主要介绍散点图矩阵的设计及其在R中的实现方法，并比较它们的长短，从而审时度势，选取自己喜欢的表现方式和相应的函数。<!--more-->
@@ -34,7 +35,7 @@ pairs(iris[1:4], main = "Anderson's Iris Data -- 3 species",
       bg = c("red", "green3", "blue")[unclass(iris$Species)])
 ```
 
-![pairs](https://cos.name/wp-content/uploads/2009/03/pairs.png)
+![pairs](https://uploads.cosx.org/2009/03/pairs.png)
 
 <p style="text-align: center;">图1 pairs</p>
 
@@ -52,7 +53,7 @@ spm(~Sepal.Length + Sepal.Width + Petal.Length + Petal.Width |
     Species, data = iris)
 ```
 
-![spm](https://cos.name/wp-content/uploads/2009/03/spm.png)
+![spm](https://uploads.cosx.org/2009/03/spm.png)
 
 <p style="text-align: center;">图2 spm</p>
 
@@ -68,7 +69,7 @@ gpairs(iris, upper.pars = list(scatter = 'stats'),
          stat.pars = list(verbose = FALSE))
 ```
 
-![gpairs](https://cos.name/wp-content/uploads/2009/03/gpairs.png)
+![gpairs](https://uploads.cosx.org/2009/03/gpairs.png)
 <p style="text-align: center;">图3 gpairs</p>
 
 # splom(lattice)
@@ -89,7 +90,7 @@ splom(~iris[1:4], groups = Species, data = iris,
                  text = list(c("Setosa", "Versicolor", "Virginica"))))
 ```
 
-![splom](https://cos.name/wp-content/uploads/2009/03/splom.png)
+![splom](https://uploads.cosx.org/2009/03/splom.png)
 <p style="text-align: center;">图4 splom</p>
 
 # 讨论

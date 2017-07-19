@@ -10,6 +10,7 @@ tags:
   - 批处理
   - 测试
 slug: running-r-in-batch-mode
+forum_id: 418782
 ---
 
 今天我来谈一点用R编程的经验吧。好像R的很多方面许多牛人都谈过了，比如R的打包啊，R的图形啊，下面我来谈谈R的测试。如果希望真正学到什么的话，还是要自己花时间实践的。
@@ -84,4 +85,4 @@ invisible()
 
 在测试函数中通过用`try`命令，实现对异常的收集，而不直接跳出测试。
 
-![batch mode](https://cos.name/wp-content/uploads/2009/03/batch.jpg)
+![batch mode](https://uploads.cosx.org/2009/03/batch.jpg)

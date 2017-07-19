@@ -13,9 +13,10 @@ tags:
   - 数据科学
   - 数据科学家
 slug: data-sciencs-series-interview-of-zhangjian
+forum_id: 418966
 ---
 
-![zhangjian_photo](https://cos.name/wp-content/uploads/2013/08/zhangjian_photo.jpg)
+![zhangjian_photo](https://uploads.cosx.org/2013/08/zhangjian_photo.jpg)
 
 【COS编辑部按】：受访人：张健，微软公司担任data scientist。
 

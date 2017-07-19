@@ -13,6 +13,7 @@ tags:
   - 调和曲线图
   - 轮廓图
 slug: parallel-coordinates-and-andrews-curve
+forum_id: 418773
 ---
 
 多元数据的可视化方法很多，譬如散点图、星图、雷达图、脸谱图、协同图等，大致可分为以下几类：1.基于点（如二维、三维散点图）；2.基于线（如轮廓图、调和曲线图）；3.基于平面图形（如星图、雷达图、蛛网图）；4.基于三维曲面（如三维曲面图）。其思想是将高维数据映射到低维空间（三维以下）内，尽量使信息损失最少，同时又能利于肉眼辨识。调和曲线图和轮廓图(即平行坐标图)都是多元数据的可视化方法，它们基于“线”的形式，将多元数据表示出来，对于聚类分析有很好的帮助。<!--more-->
@@ -30,7 +31,7 @@ parallel(~iris[1:4], iris, groups = Species,
     horizontal.axis = FALSE, scales = list(x = list(rot = 90)))
 ```
 
-![Iris 数据的轮廓图(Parallel Coordinate Plots)](https://cos.name/wp-content/uploads/2009/03/parallel2.png)
+![Iris 数据的轮廓图(Parallel Coordinate Plots)](https://uploads.cosx.org/2009/03/parallel2.png)
 <p style="text-align: center;">图1 Iris 数据的轮廓图(Parallel Coordinate Plots)</p>
 
 观察图1，可以发现同一品种的鸢尾花的轮廓图粗略地聚集在一起。
@@ -72,7 +73,7 @@ legend(x = -3, y = 15, c("setosa", "versicolor", "virginica"),
     lty = 1, col = c("red", "green3", "blue"))
 ```
 
-![Iris 数据的调和曲线图](https://cos.name/wp-content/uploads/2009/03/unison.png)
+![Iris 数据的调和曲线图](https://uploads.cosx.org/2009/03/unison.png)
 <p style="text-align: center;">图2 Iris 数据的调和曲线图</p>
 
 观察图2，同样可以发现同一品种鸢尾花数据的调和曲线图基本上扭在一起。同图1 比较后，发现图2 更加清楚明白，事实上Andrews证明了调和曲线图有许多良好性质。

@@ -1,7 +1,6 @@
 ---
 title: Sweave后传：统计报告中的大规模计算与缓存
 date: '2011-01-03T11:23:59+00:00'
-description: '学无止境。我曾以为我明白了如何在Sweave中使用缓存加快计算和图形，但后来发现我并没有真的理解，直到读了另外一些手册才明白，因此本文作为前文"Sweave：打造一个可重复的统计研究流程"之续集，向大家介绍一下如何在Sweave的计算和图形中使用缓存，以节省不必要的重复计算和作图，让那些涉及到密集型计算的用户不再对Sweave感到难堪。'
 author: 谢益辉
 categories:
   - 优化与模拟
@@ -27,6 +26,7 @@ tags:
   - 缓存
   - 随机模拟
 slug: cache-objects-in-sweave-stat-computation-and-graphics
+forum_id: 418826
 ---
 
 学无止境。我曾以为我明白了如何在Sweave中使用缓存加快计算和图形，但后来发现我并没有真的理解，直到读了另外一些手册才明白，因此本文作为前文“[Sweave：打造一个可重复的统计研究流程](/2010/11/reproducible-research-in-statistics/)”之续集，向大家介绍一下如何在Sweave的计算和图形中使用缓存，以节省不必要的重复计算和作图，让那些涉及到密集型计算的用户不再对Sweave感到难堪。
@@ -74,13 +74,13 @@ Gibbs抽样的最终目的是从一个多维分布`\(f(X_1,X_2,\ldots,X_n)\)`中
 \left[\begin{array}{c}X\\ Y\end{array}\right]\sim\mathcal{N}\left(\left[\begin{array}{c}0\\ 1\end{array}\right],\left[\begin{array}{cc} 4 & 4.2\\ 4.2 & 9\end{array}\right]\right)
 $$`
 
-详细过程和结果参见下面这份PDF文档（点击下载）：[A Simple Demo on Caching R Objects and Graphics with pgfSweave (PDF)](https://cos.name/wp-content/uploads/2011/01/cache-pgfSweave-demo-Yihui-Xie.pdf)
+详细过程和结果参见下面这份PDF文档（点击下载）：[A Simple Demo on Caching R Objects and Graphics with pgfSweave (PDF)](https://uploads.cosx.org/2011/01/cache-pgfSweave-demo-Yihui-Xie.pdf)
 
-![二维正态分布随机数及其等高线图](https://cos.name/wp-content/uploads/2011/01/cache-pgfSweave-demo-Yihui-Xie-cache-graph.png)
+![二维正态分布随机数及其等高线图](https://uploads.cosx.org/2011/01/cache-pgfSweave-demo-Yihui-Xie-cache-graph.png)
 
 我们生成了50万行随机数，并画了X与Y的散点图。由于我们设定了相关系数为0.7，所以图中自然而然显现出正相关；而等高线也体现出多维正态分布的“椭球形”特征。均值在(0, 1)附近，都和理论分布吻合。所以这个Gibbs抽样还不太糟糕。
 
-生成上面的PDF文档和图形的LyX/Sweave源文档在这里 ：[A Simple Demo on Caching R Objects and Graphics with pgfSweave (LyX)](https://cos.name/wp-content/uploads/2011/01/cache-pgfSweave-demo-Yihui-Xie.zip)
+生成上面的PDF文档和图形的LyX/Sweave源文档在这里 ：[A Simple Demo on Caching R Objects and Graphics with pgfSweave (LyX)](https://uploads.cosx.org/2011/01/cache-pgfSweave-demo-Yihui-Xie.zip)
   
 如果你已经按照我[前面的文章](/2010/11/reproducible-research-in-statistics/)配置好你的工具（**即使当时配置过，现在也需要重新配置**，因为我最近作了重大修改），这个文档应该可以让你重新生成我的结果。文档中有两处关键选项：
 

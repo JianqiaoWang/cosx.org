@@ -13,6 +13,7 @@ tags:
   - rCharts
   - recharts
 slug: using-r-for-interactive-data-visualization
+forum_id: 419142
 ---
 
 上周在中国R语言大会北京会场上，给大家分享了如何利用R语言交互数据可视化。现场同学对这块内容颇有兴趣，故今天把一些常用的交互可视化的R包搬出来与大家分享。
@@ -39,7 +40,7 @@ p1 <- rPlot(SepalLength ~ SepalWidth | Species, data = iris, color = 'Species', 
 p1
 ```
 
-![001](https://cos.name/wp-content/uploads/2016/06/001.png)
+![001](https://uploads.cosx.org/2016/06/001.png)
 
 rCharts支持多个javascript图表库,每个都有自己的长处。每一个图表库有多个定制选项,其中大部分rCharts都支持。
 
@@ -57,13 +58,13 @@ type = "multiBarChart")
 n1
 ```
 
-![002](https://cos.name/wp-content/uploads/2016/06/002.png) 
+![002](https://uploads.cosx.org/2016/06/002.png) 
 
 可以通过图形右上角选择需要查看或隐藏的类别（默认是全部类别显示的），也能通过左上角选择柱子是按照分组还是叠加的方式进行摆放（默认是分组方式）。如果选择Stacked，就会绘制叠加柱状图。
 
 
 
-![rcharts-003](https://cos.name/wp-content/uploads/2016/06/rcharts-003.png)
+![rcharts-003](https://uploads.cosx.org/2016/06/rcharts-003.png)
 
 Highcharts是一个制作图表的纯Javascript类库，支持大部分的图表类型：直线图，曲线图、区域图、区域曲线图、柱状图、饼状图、散布图等。在rCharts包中提供了hPlot函数来实现。
 
@@ -81,7 +82,7 @@ a$exporting(enabled = T)
 a
 ```
 
-![rcharts-004](https://cos.name/wp-content/uploads/2016/06/rcharts-004.png)
+![rcharts-004](https://uploads.cosx.org/2016/06/rcharts-004.png)
 
 rCharts包可以画出更多漂亮的交互图， <http://ramnathv.github.io/rCharts/>和<https://github.com/ramnathv/rCharts/tree/master/demo>有更多的例子可供大家学习。
 
@@ -109,7 +110,7 @@ echartR(data=iris,x=~SepalLength,y=~PetalWidth,series = ~Species,
 type = 'scatter')
 ```
 
-![rcharts-005](https://cos.name/wp-content/uploads/2016/06/rcharts-005.png)
+![rcharts-005](https://uploads.cosx.org/2016/06/rcharts-005.png)
 
 绘制柱状图：
 
@@ -122,9 +123,9 @@ type = 'bar', palette='fivethirtyeight',
 xlab = 'Hair', ylab = 'Freq')
 ```
 
-![rcharts-006](https://cos.name/wp-content/uploads/2016/06/rcharts-006.png)
+![rcharts-006](https://uploads.cosx.org/2016/06/rcharts-006.png)
 
-![rcharts-007](https://cos.name/wp-content/uploads/2016/06/rcharts-007.png) 
+![rcharts-007](https://uploads.cosx.org/2016/06/rcharts-007.png) 
 
 玫瑰图：
 
@@ -140,7 +141,7 @@ palette='colorblind', title='Number of Cylinders',
 subtitle = '(source: mtcars)')
 ```
 
-![rcharts-007](https://cos.name/wp-content/uploads/2016/06/rcharts-007.png)
+![rcharts-007](https://uploads.cosx.org/2016/06/rcharts-007.png)
 
 雷达图：
 
@@ -156,7 +157,7 @@ symbolList='none', palette=c('firebrick1','dodgerblue'),
 title='Lahm vs Alves', subtitle= '(by @mixedknuts)')
 ```
 
-![rcharts-008](https://cos.name/wp-content/uploads/2016/06/rcharts-008.png)
+![rcharts-008](https://uploads.cosx.org/2016/06/rcharts-008.png)
 
 # plotly包
 
@@ -185,7 +186,7 @@ color = Species, colors = "Set1", mode = "markers")
 p
 ```
 
-![rcharts-009](https://cos.name/wp-content/uploads/2016/06/rcharts-009.png)
+![rcharts-009](https://uploads.cosx.org/2016/06/rcharts-009.png)
 
 如果想绘制交互箱线图，需要将type参数设置为box。
 
@@ -194,7 +195,7 @@ library(plotly)
 plot_ly(midwest, x = percollege, color = state, type = "box")
 ```
 
-![rcharts-010](https://cos.name/wp-content/uploads/2016/06/rcharts-010.png)
+![rcharts-010](https://uploads.cosx.org/2016/06/rcharts-010.png)
 
 如果你已熟悉ggplot2的绘图系统，也可以针对ggplot2绘制的对象p，利用ggplotly函数实现交互效果。例如我们想对ggplot绘制的密度图实现交互效果，执行以下代码即可。
 
@@ -206,7 +207,7 @@ facet_grid(voice.part~.)
 (gg <- ggplotly(p))
 ```
 
-![rcharts-011](https://cos.name/wp-content/uploads/2016/06/rcharts-011.png)
+![rcharts-011](https://uploads.cosx.org/2016/06/rcharts-011.png)
 
 # 其他
 
@@ -222,7 +223,7 @@ dyOptions(stackedGraph = TRUE) %&gt;%
 dyRangeSelector(height = 20)
 ```
 
-![rcharts-012](https://cos.name/wp-content/uploads/2016/06/rcharts-012.png)
+![rcharts-012](https://uploads.cosx.org/2016/06/rcharts-012.png)
 
 DT包实现R数据对象可以在HTML页面中实现过滤、分页、排序以及其他许多功能。通过install.packages(“DT”)安装。
 
@@ -249,7 +250,7 @@ Value = "value", NodeID = "name",
 Group = "group", opacity = 0.8)
 ```
 
-![rcharts-014](https://cos.name/wp-content/uploads/2016/06/rcharts-014.png) 
+![rcharts-014](https://uploads.cosx.org/2016/06/rcharts-014.png) 
 
 我们可以通过d3treeR包绘制交互treemap图，利用
 
@@ -275,6 +276,6 @@ d3tree( tm,rootname = "World" )
 
 
 
-![rcharts-015](https://cos.name/wp-content/uploads/2016/06/rcharts-015.png)
+![rcharts-015](https://uploads.cosx.org/2016/06/rcharts-015.png)
 
 今天主要是介绍了几个R常用的交互包。在R的环境中，动态交互图形的优势在于能和knitr、shiny等框架整合在一起，能迅速建立一套可视化原型系统。希望以后再跟各位分享这部分的内容。

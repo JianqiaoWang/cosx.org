@@ -10,6 +10,7 @@ tags:
   - 误差
   - 速度
 slug: fast-normal-cdf
+forum_id: 419120
 ---
 
 标准正态分布的分布函数 `$\Phi(x)$` 可以说是统计计算中非常重要的一个函数，基本上有正态分布的地方都或多或少会用上它。在一些特定的问题中，我们需要大量多次地计算这个函数的取值，比如我经常需要算正态分布与另一个随机变量之和的分布，这时候就需要用到数值积分，而被积函数就包含 `$\Phi(x)$`。如果 `$Z\sim N(0,1), X\sim f(x)$`，`$f$` 是 `$X$` 的密度函数，那么 `$Z+X$` 的分布函数就是
@@ -46,7 +47,7 @@ max(abs(y - asy))
 
 那么还有没有可能更快呢？答案是肯定的，而且你其实已经多次使用过这种方法了。怎么，不相信？看看下面这张图，你就明白了。
 
-![normal_table](https://cos.name/wp-content/uploads/2016/01/normal_table.png)
+![normal_table](https://uploads.cosx.org/2016/01/normal_table.png)
 
 
 

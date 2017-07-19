@@ -14,6 +14,7 @@ tags:
   - 相关系数矩阵
   - 颜色图
 slug: correlation-matrix-visualization
+forum_id: 418774
 ---
 
 相关系数阵对于分析多元数据时非常有用，然而当变量较多时，我们很难从一堆庞大的数字中快速获取信息。正因为如此，相关阵的可视化应运而生。的确，活泼生动的图形对我们的眼球更有诱惑力。已有的相关阵可视化技巧有颜色图、椭圆图、钟表图(参见Deepayan Sarkar所著的《Multivariate Data Visualization with R》中的Fig13.6)等，其思想都非常直观。本文在阐述了颜色图和椭圆图的机理后，又提出了一种新的相关阵的可视化技术——圆圈图，并与颜色图、椭圆图进行了比较。
@@ -41,7 +42,7 @@ image(1:11, 1:11, cor2, axes = FALSE, ann = F, col = colors)
 text(rep(1:11, 11), rep(1:11, each = 11), round(100 * cor2))
 ```
 
-![图1 相关阵的颜色图](https://cos.name/wp-content/uploads/2009/03/corimage2.png)
+![图1 相关阵的颜色图](https://uploads.cosx.org/2009/03/corimage2.png)
 <p style="text-align: center;">图1 相关阵的颜色图</p>
 
 观察图1，通过颜色的比较，可以直观看出相关系数的符号和大小：深色区域表示较强相关性，浅色区域表示较弱的相关性。
@@ -58,7 +59,7 @@ col = colors[as.vector(apply(corr, 2, rank))]
 plotcorr(cor, col = col, mar = rep(0, 4))
 ```
 
-![图2. 相关阵的椭圆图](https://cos.name/wp-content/uploads/2009/03/corr-ellipse3.png)
+![图2. 相关阵的椭圆图](https://uploads.cosx.org/2009/03/corr-ellipse3.png)
 <p style="text-align: center;">图2. 相关阵的椭圆图</p>
 
 观察图2，可以发现尽管所有椭圆披红挂蓝，但该图并不是非常形象生动（本文前一个版本中所有椭圆皆为灰色，表现力更差）。
@@ -95,7 +96,7 @@ circle.cor=function(cor,axes=FALSE, xlab='', ylab='', asp=1,
 circle.cor(cor)
 ```
 
-![相关阵的圆圈图](https://cos.name/wp-content/uploads/2009/03/taiyuncorcircles.png)
+![相关阵的圆圈图](https://uploads.cosx.org/2009/03/taiyuncorcircles.png)
 <p style="text-align: center;">图3. 相关阵的圆圈图</p>
 
 图3 中，黑色实心圆表示正相关系数，空心圆表示负相关系数。观察图3 ，不难看出相关系数的大小、正负都空前清楚明了。

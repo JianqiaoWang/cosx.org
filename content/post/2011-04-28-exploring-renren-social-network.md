@@ -2,7 +2,6 @@
 title: 社会网络分析：探索人人网好友推荐系统
 date: '2011-04-28T01:30:28+00:00'
 author: 陈逸波
-description: 最近四五年间，互联网行业似乎总是绕不开社交网络这个概念。无论是旗舰级别的传说中的facebook、LinkedIn，还是如雨后春笋般冒出来的各种团购和微博网站，全都或多或少地体现着SNS（社会网络服务）的特色。这些五花八门的产品，在丰富我们业余生活的同时，也为研究者提供了大量珍贵的数据。以往只能依靠有限的调研或模拟才能进行的社会网络分析（SNA），现在具备了大规模开展和实施的条件。国内著名而典型的SNS网站“人人网”，最近依靠上市新闻重新赢得了大家的关注。本文基于人人网的好友关系数据，应用统计分析软件R做了社会网络分析的一些尝试。
 categories:
   - 推荐文章
   - 统计图形
@@ -14,6 +13,7 @@ tags:
   - 好友推荐系统
   - 社会网络分析
 slug: exploring-renren-social-network
+forum_id: 418839
 ---
 
 最近四五年间，互联网行业似乎总是绕不开社交网络这个概念。无论是旗舰级别的传说中的facebook、LinkedIn，还是如雨后春笋般冒出来的各种团购和微博网站，全都或多或少地体现着SNS（社会网络服务）的特色。这些五花八门的产品，在丰富我们业余生活的同时，也为研究者提供了大量珍贵的数据。以往只能依靠有限的调研或模拟才能进行的社会网络分析（SNA），现在具备了大规模开展和实施的条件。国内著名而典型的SNS网站“人人网”，最近依靠上市新闻重新赢得了大家的关注。本文基于人人网的好友关系数据，应用统计分析软件R做了社会网络分析的一些尝试。
@@ -95,7 +95,7 @@ plot(gg, layout = layout.fruchterman.reingold, vertex.size = 5, vertex.label = N
 ## dev.off()
 ```
 
-![net1.png](https://cos.name/wp-content/uploads/2011/04/net1.png)
+![net1.png](https://uploads.cosx.org/2011/04/net1.png)
 
 从图中可以直观地看出，作者的好友网络存在一定的人群分割，可以尝试对这个网络进行一些分析以提取出其中相对独立的子群（或者称为社群）。
 
@@ -122,7 +122,7 @@ plot(gg, layout = layout.fruchterman.reingold, vertex.size = 5,
 ## dev.off()
 ```
 
-![walktrap.community_11.png](https://cos.name/wp-content/uploads/2011/04/walktrap.community_11.png)
+![walktrap.community_11.png](https://uploads.cosx.org/2011/04/walktrap.community_11.png)
 
 从图中可以直观地看出好友网络已经被划分为若干相对独立的子群。这也与我们对人人网（尤其是其前身校内网）的直观理解相符合——人人网的好友关系基本都是真实线下关系的反映，很自然地可以划分为初中同学、高中同学、大学同学，等等（例如网络的上半部分为小学及中学的同学，下半部分为大学同学，而左侧的五个节点，那是统计之都的同学们。）。
 
@@ -192,7 +192,7 @@ plot(V(gg)$bte)
 ## dev.off()
 ```
 
-![betweenness1.png](https://cos.name/wp-content/uploads/2011/04/betweenness1.png)
+![betweenness1.png](https://uploads.cosx.org/2011/04/betweenness1.png)
 
 根据得到的中间度散点图，我们人为地选择了3000作为分界点，选取中间度高于3000的节点并在图形中利用节点的大小展示出来。
 
@@ -214,7 +214,7 @@ plot(gg, layout = layout.fruchterman.reingold, vertex.size = V(gg)$size,
 ## dev.off()
 ```
 
-![walktrap.community_21.png](https://cos.name/wp-content/uploads/2011/04/walktrap.community_21.png)
+![walktrap.community_21.png](https://uploads.cosx.org/2011/04/walktrap.community_21.png)
 
 从图中也可以直观地看出，中间度最高的5个节点，确实位于中介的地位。
 
@@ -253,12 +253,12 @@ top20
 
 这个推荐的结果与人人网的推荐基本一致（因为逻辑相同嘛），以下是人人网的一些推荐截图：
 
-![2011-04-25_201552.jpg](https://cos.name/wp-content/uploads/2011/04/2011-04-25_201552.jpg)
+![2011-04-25_201552.jpg](https://uploads.cosx.org/2011/04/2011-04-25_201552.jpg)
 
-![2011-04-25_201619.jpg](https://cos.name/wp-content/uploads/2011/04/2011-04-25_201619.jpg)
+![2011-04-25_201619.jpg](https://uploads.cosx.org/2011/04/2011-04-25_201619.jpg)
 
 上述推荐的机制较为简单，但是在拥有大量真实关系的网络中，推荐的效率还是比较高的。当然，我们也可以开展对文本与行为的挖掘，以得到超越真实线下关系的推荐，但本文尚未做这方面的尝试。
 
 附件2的代码，最新做的图片，统计之都立功啦。
   
-![renren_friend_community_betweenness_20120330](https://cos.name/wp-content/uploads/2011/04/renren_friend_community_betweenness_20120330.png)
+![renren_friend_community_betweenness_20120330](https://uploads.cosx.org/2011/04/renren_friend_community_betweenness_20120330.png)

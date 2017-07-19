@@ -10,6 +10,7 @@ tags:
   - 统计研讨会
   - 骨干教师培训
 slug: 2016-big-data-workshop
+forum_id: 419144
 ---
 
 2016年“大数据时代的统计学”教学研讨会暨第五届全国高校统计类专业骨干教师研修班，由应用统计硕士教指委与五校联合大数据分析硕士培养协同创新平台联合推出。
@@ -30,7 +31,7 @@ slug: 2016-big-data-workshop
 
 # 授课主题
 
-![shouke](https://cos.name/wp-content/uploads/2016/06/shouke.png)
+![shouke](https://uploads.cosx.org/2016/06/shouke.png)
 
 # 嘉宾介绍
 
@@ -70,11 +71,11 @@ slug: 2016-big-data-workshop
 
 标间380元/天，含双早
 
-![jiudian_2](https://cos.name/wp-content/uploads/2016/06/jiudian_2.jpg) 
+![jiudian_2](https://uploads.cosx.org/2016/06/jiudian_2.jpg) 
 
-![jiudian_1](https://cos.name/wp-content/uploads/2016/06/jiudian_1.jpg) 
+![jiudian_1](https://uploads.cosx.org/2016/06/jiudian_1.jpg) 
 
-![jiudian_3](https://cos.name/wp-content/uploads/2016/06/jiudian_3.jpg)
+![jiudian_3](https://uploads.cosx.org/2016/06/jiudian_3.jpg)
 
 联系人：
 
@@ -84,6 +85,6 @@ slug: 2016-big-data-workshop
 
 报名二维码：
 
-![erwei_jiudian](https://cos.name/wp-content/uploads/2016/06/erwei_jiudian.png)
+![erwei_jiudian](https://uploads.cosx.org/2016/06/erwei_jiudian.png)
 
 报名链接：<http://form.mikecrm.com/0GNgZ8>

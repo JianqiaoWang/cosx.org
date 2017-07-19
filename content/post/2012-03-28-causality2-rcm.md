@@ -14,9 +14,10 @@ tags:
   - 平均因果作用
   - 随机化试验
 slug: causality2-rcm
+forum_id: 418865
 ---
 
-![Donald Rubin](https://cos.name/wp-content/uploads/2012/03/Donald-Rubin.jpg)
+![Donald Rubin](https://uploads.cosx.org/2012/03/Donald-Rubin.jpg)
 
 因果推断用的最多的模型是 Rubin Causal Model (RCM; Rubin 1978) 和 Causal Diagram (Pearl 1995)。Pearl (2000) 中介绍了这两个模型的等价性，但是就应用来看，RCM 更加精确，而 Causal Diagram 更加直观，后者深受计算机专家们的推崇。这部分主要讲 RCM。
 

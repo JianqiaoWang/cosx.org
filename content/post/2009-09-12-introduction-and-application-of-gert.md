@@ -14,6 +14,7 @@ tags:
   - 矩母函数
   - 随机网络系统
 slug: introduction-and-application-of-gert
+forum_id: 418803
 ---
 
 问题：一枚均匀的硬币，一直抛直至出现HTT（H表示正面，T表示背面），期望要抛多少次？一直抛直至出现HTH（即正反正），期望要抛多少次？假定出现H面的概率为`$p$`，出现T面的概率为`$q$`，且`$p=q=1/2$`
@@ -23,6 +24,6 @@ slug: introduction-and-application-of-gert
 
 文中第一部分详细介绍了GERT方法，可作为第二部分的参考内容；第二部分是利用GERT方法求解上述的两个抛硬币问题。由于文中图和公式较多，编辑比较麻烦，所以具体的文章见下面的链接。
 
-文章下载地址：[用GERT方法解决两个抛硬币问题](https://cos.name/wp-content/uploads/2009/09/application-of-gert-in-coin-problems.pdf)
+文章下载地址：[用GERT方法解决两个抛硬币问题](https://uploads.cosx.org/2009/09/application-of-gert-in-coin-problems.pdf)
 
 论坛帖子地址：<https://cos.name/cn/topic/16360>

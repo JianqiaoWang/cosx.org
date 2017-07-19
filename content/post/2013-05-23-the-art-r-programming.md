@@ -5,9 +5,10 @@ author: 陈堰平
 categories:
   - 图书出版
 slug: the-art-r-programming
+forum_id: 418938
 ---
 
-![R语言编程艺术](https://cos.name/wp-content/uploads/2013/05/art-of-r.jpg)
+![R语言编程艺术](https://uploads.cosx.org/2013/05/art-of-r.jpg)
 
 
 <p style="text-align: center;">《R语言编程艺术》</p>

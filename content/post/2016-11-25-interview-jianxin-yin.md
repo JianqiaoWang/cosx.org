@@ -7,6 +7,7 @@ categories:
   - 推荐文章
   - 统计之都
 slug: interview-jianxin-yin
+forum_id: 419173
 ---
 
 >【COS编辑者按】受访者：尹建鑫      采访者：王小宁     校对：王佳
@@ -15,7 +16,7 @@ slug: interview-jianxin-yin
 
 <!--more-->
 
-![avq550gnetmkc7tlser8](https://cos.name/wp-content/uploads/2016/11/AVQ550GNETMKC7TLSER8.png)
+![avq550gnetmkc7tlser8](https://uploads.cosx.org/2016/11/AVQ550GNETMKC7TLSER8.png)
 
 **小宁**：请问您当初为什么从物理专业转到数学专业呢？
 

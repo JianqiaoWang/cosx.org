@@ -9,7 +9,7 @@ tags:
   - 贝叶斯
   - 贝叶斯定理
 slug: bayes-meeting-1st
-description: "纪念贝叶斯定理250周年暨首届中国贝叶斯统计学术论坛（天津，2013）将于2013年12月21日（周六）在天津财经大学召开，本次会议由天津财经大学中国经济统计研究中心、统计系和贝叶斯之道研究室共同主办，统计之都协办。"
+forum_id: 418990
 ---
 
 纪念贝叶斯定理250周年暨首届中国贝叶斯统计学术论坛（天津，2013）将于2013年12月21日（周六）在天津财经大学召开，本次会议由天津财经大学中国经济统计研究中心、统计系和贝叶斯之道研究室共同主办，统计之都协办，会议通知如下：
@@ -22,12 +22,12 @@ description: "纪念贝叶斯定理250周年暨首届中国贝叶斯统计学术
 
 天津财经大学月牙报告厅（统计湖畔）
 
-![tianjinUniv0map](https://cos.name/wp-content/uploads/2013/12/tianjinUniv0map.png)
+![tianjinUniv0map](https://uploads.cosx.org/2013/12/tianjinUniv0map.png)
 
 
 # 三、论坛日程安排
 
-  ![cloud-bayes](https://cos.name/wp-content/uploads/2013/12/cloud-bayes.png)
+  ![cloud-bayes](https://uploads.cosx.org/2013/12/cloud-bayes.png)
 
 
 ## （一）论坛特邀报告（上午：9:00-12:00）

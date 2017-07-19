@@ -1,6 +1,5 @@
 ---
 title: "强大数定律与康托三分集"
-description: "本文从博雷尔正轨数定律说起，解释了在强大数定律意义下康托三分集测度的含义。"
 date: '2010-10-13T12:50:48+00:00'
 author: 左辰
 categories:
@@ -10,6 +9,7 @@ tags:
   - 强大数定律
   - 正轨数
 slug: cantor-set-and-slln
+forum_id: 418821
 ---
 
 首先从博雷尔正轨数定律(Borel’s Normal Number Theorem)说起。众所周知，(0,1]区间上的每一个实数`\(\omega\)`都与一列唯一的无穷的二进制展开序列`\(\{X_k(\omega)\}\)`一一对应，其中`\(X_k (\omega)\)`表示二进制展开的第k位，对应关系为：
@@ -77,4 +77,4 @@ C=\cap\_{k=1}^\infty C_k $$`
 
 类似地，我们可以进一步解释广义康托集与强大数定律的关系。有兴趣的读者可以作出相应推广。
 
-注：本文已经由COS编辑部整理为PDF（LaTeX）版本，读者可以下载：[强大数定律与康托三分集（PDF，105K）](https://cos.name/wp-content/uploads/2010/10/强大数定律与康托三分集.pdf)
+注：本文已经由COS编辑部整理为PDF（LaTeX）版本，读者可以下载：[强大数定律与康托三分集（PDF，105K）](https://uploads.cosx.org/2010/10/强大数定律与康托三分集.pdf)

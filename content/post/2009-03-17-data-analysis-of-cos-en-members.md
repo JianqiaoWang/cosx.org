@@ -14,6 +14,7 @@ tags:
   - 英文网站
   - 非平衡数据
 slug: data-analysis-of-cos-en-members
+forum_id: 418778
 ---
 
 大家好，为了促进大家对统计之都的了解，并锻炼各位会员的统计应用能力，即日起我们推出“COS竞赛”系列活动。第一期活动的主要任务是分析统计之都英文网站（<https://cos.name/en/>）的会员数据，从中找出识别正规会员和机器人（垃圾、广告、自动注册）会员的规律。
@@ -39,7 +40,7 @@ write.csv(x, "cos_en_spam.csv", row.names = FALSE)
 
 # 数据下载
 
-整理之后的数据下载：[统计之都英文网站会员数据](https://cos.name/wp-content/uploads/2009/03/cos_en_spamcsv.gz)；
+整理之后的数据下载：[统计之都英文网站会员数据](https://uploads.cosx.org/2009/03/cos_en_spamcsv.gz)；
 
 所有变量名的解释参见：[phpbb_users的数据表结构说明](http://www.phpbbdoctor.com/doc_columns.php?id=24 "http://www.phpbbdoctor.com/doc_columns.php?id=24")；注意其中所有时间数据都是Unix时间戳格式，起点为1970-01-01 00:00:00，可以用R函数`as.POSIXlt(, origin = "1970-01-01 00:00:00")`转化为日期。
 
@@ -125,7 +126,7 @@ plot(t(table(spam, email_ru)), cex.axis = 0.8, shade = TRUE,
      main = "Spam members and Russian email address")
 ```
 
-[![COS英文网站会员类别与俄罗斯后缀邮箱的马赛克图](https://cos.name/wp-content/uploads/2009/03/cos_en_spam_mosaicplot.png "COS英文网站会员类别与俄罗斯后缀邮箱的马赛克图")](/2009/03/data-analysis-of-cos-en-members/)
+[![COS英文网站会员类别与俄罗斯后缀邮箱的马赛克图](https://uploads.cosx.org/2009/03/cos_en_spam_mosaicplot.png "COS英文网站会员类别与俄罗斯后缀邮箱的马赛克图")](/2009/03/data-analysis-of-cos-en-members/)
 <p style="text-align: center;">COS英文网站会员类别与俄罗斯后缀邮箱的马赛克图</p>
 
 以上马赛克图进一步说明了俄罗斯邮箱与会员类型的关系。

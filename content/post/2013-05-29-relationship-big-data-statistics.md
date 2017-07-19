@@ -15,6 +15,7 @@ tags:
   - 精细估计
   - 统计分析
 slug: relationship-big-data-statistics
+forum_id: 418940
 ---
 
 > 本文转载自施涛的博客，原文链接请[点击此处](http://blog.cos.name/taoshi/2013/05/29/%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%97%B6%E4%BB%A3%E5%92%8C%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E9%9C%80%E6%B1%82%EF%BC%8C%E7%BB%9F%E8%AE%A1%E8%BF%98%E6%B2%BE%E8%BE%B9%E5%90%97%EF%BC%9F/)。
@@ -27,7 +28,7 @@ slug: relationship-big-data-statistics
 
 我们可以用什么数据来做这个预测呢？最常用的就是民调数据了，通过有选择性的挑选一些可能选民来问他们的倾向。这好像是个传统统计干的事。[早在1962年John Tukey就已经开始做了](http://blog.cos.name/taoshi/2012/07/26/john-and-david/)。
   
-![4C6ec](https://cos.name/wp-content/uploads/2013/05/4C6ec.jpg)
+![4C6ec](https://uploads.cosx.org/2013/05/4C6ec.jpg)
 
   * **问题2**: 奥巴马和罗姆尼各自赢得了哪些州？
 
@@ -35,13 +36,13 @@ slug: relationship-big-data-statistics
   
 <!--more-->
   
-![OxBWOGJ](https://cos.name/wp-content/uploads/2013/05/OxBWOGJ.jpg)
+![OxBWOGJ](https://uploads.cosx.org/2013/05/OxBWOGJ.jpg)
 
   * **问题3**: 奥巴马和罗姆尼各自赢得了县？
 
 再做更小范围，更详细的抽样调查也许可行，也就是在加上几十到几百的数据量和相应的花费吧，同时为了提高准确性我们或许还需要收集和用到更多的其他辅助数据，比如各地的人口构成，年龄构成。。。但这个问题如果回答的好的话就可以更有效的投放广告到地方市场了。
   
-![vZH2Tkq](https://cos.name/wp-content/uploads/2013/05/vZH2Tkq.jpg)
+![vZH2Tkq](https://uploads.cosx.org/2013/05/vZH2Tkq.jpg)
 
 （这个数据可视化很灿，还有更酷的[在这里](http://www.princeton.edu/~rvdb/JAVA/election2012/)，by [Robert J. Vanderbei](http://www.princeton.edu/~rvdb/), Professor of [Operations Research and Financial Engineering](http://orfe.princeton.edu/) at Princeton。看，不是统计学家做的吧。）
 
@@ -57,7 +58,7 @@ slug: relationship-big-data-statistics
   
     我们这就看到 Google, Baidu等一拥而上，不计成本的计算了，而且所能应用的变量就可能是他们能拿到关于“某人”的所有的线上脚印和线下信息了。
 
-![t7Kh6hH](https://cos.name/wp-content/uploads/2013/05/t7Kh6hH.png)
+![t7Kh6hH](https://uploads.cosx.org/2013/05/t7Kh6hH.png)
   
 问题问了一圈，这些听起来都很是十足的统计分析啊。本应该是统计分析人士应该是施展才华的时代，那为何还会有要被时代淘汰的论调呢？记得Leo Brieman 在[1994年Berkeley 统计系毕业典礼上的讲话](/2012/02/what-is-the-stat-dept-25-years-from-now/)中提到的：
 

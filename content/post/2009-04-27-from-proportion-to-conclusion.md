@@ -12,6 +12,7 @@ tags:
   - 调查
   - 造假
 slug: from-proportion-to-conclusion
+forum_id: 418787
 ---
 
 新华网刚发布了一个[关于学生冬季长跑的调查结果](http://news.xinhuanet.com/society/2009-04/22/content_11230487.htm "http://news.xinhuanet.com/society/2009-04/22/content_11230487.htm")（于2009年4月27日13:52访问），一共调查了100人，结果中却出现了92.79%这样的比例数字，有常识的读者都知道，世上不存在0.79个人，因此这里面必然有某个地方是错的（姑且不妄言造假）。这则消息让我马上想起《统计陷阱》这本书，我们生活中有多少陷阱呢？
@@ -32,7 +33,7 @@ slug: from-proportion-to-conclusion
 [1]  7 14 21 28
 ```
 
-![从比例数字还原分式](https://cos.name/wp-content/uploads/2009/04/digit-detection.png "从比例数字还原分式")
+![从比例数字还原分式](https://uploads.cosx.org/2009/04/digit-detection.png "从比例数字还原分式")
 
 我们很容易发现分母（样本量）是24的倍数，因为上图中24的倍数乘以29.167%得到的结果很靠近整数；而具备某种特征的样本数量为7的倍数。根据具体的调查背景，我们可以自己猜测报告方究竟调查了多少人：24人？太少；960人？为什么不是1000人？……
 

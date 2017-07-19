@@ -1,6 +1,5 @@
 ---
 title: 第六届R语言会议开始报名
-description: "第六届R语言会议报名通知"
 date: '2013-03-20T23:00:36+00:00'
 author: COS编辑部
 categories:
@@ -9,6 +8,7 @@ tags:
   - '2013'
   - R语言会议
 slug: 6th-chiner-conference-register
+forum_id: 418922
 ---
 
 由统计之都组织的2012年第六届ChinaR会议正式开始接受报名了。和往年一样，报名仍然是免费的，并欢迎投稿演讲。会议详情请见[第六届中国R会议通知](/2013/02/chinar-beijing-2013/)。

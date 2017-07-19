@@ -2,7 +2,6 @@
 title: 修正的LARS算法和lasso
 date: '2011-04-25T17:29:36+00:00'
 author: 郝智恒
-description: 在小弟的上一篇文章中，简单的介绍了LARS算法是怎么回事。主要参考的是Efron等人的经典文章least angle regression。在这篇文章中，还提到了一些有趣的看法，比如如何用LARS算法来求解lasso estimate和forward stagewise estimate。这种看法将我对于模型选择的认识提升了一个层次。在这个更高的层次下看回归的变量选择过程，似乎能有一些更加创新的想法。
 categories:
   - 回归分析
   - 统计计算
@@ -10,6 +9,7 @@ tags:
   - lars
   - lasso
 slug: modified-lars-and-lasso
+forum_id: 418837
 ---
 
 在小弟的上一篇文章中，简单的介绍了LARS算法是怎么回事。主要参考的是Efron等人的经典文章least angle regression。在这篇文章中，还提到了一些有趣的看法，比如如何用LARS算法来求解lasso estimate和forward stagewise estimate。这种看法将我对于模型选择的认识提升了一个层次。在这个更高的层次下看回归的变量选择过程，似乎能有一些更加创新的想法。
@@ -48,7 +48,7 @@ $$`
 
 这个对于LARS的lasso修正算法，被Efron称作“one at a time”条件，也就是每一步都要增加或删掉一个变量。下图显示了用修正了的LARS算法求lasso estimate的过程。
 
-![LARS](https://cos.name/wp-content/uploads/2011/04/LARS.png)
+![LARS](https://uploads.cosx.org/2011/04/LARS.png)
 
 这个图是Efron等人的文章中，对于一个实际数据进行回归得到的。该数据一共有10个变量。图的横轴，是所有回归系数估值的绝对值之和，这个值从$0$增加。左侧的纵轴，是回归系数的估值，右侧纵轴是这些回归系数对应的变量的下标。这个图中，我们可以看到每一个回归系数的path。可以看到第七个变量对应的回归系数在横轴快到3000的时候变为了0，说明到这一步时，该变量被删除掉，之后又被重新添加到了回归变量集中。
 

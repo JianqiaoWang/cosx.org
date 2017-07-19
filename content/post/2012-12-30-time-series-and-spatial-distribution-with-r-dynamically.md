@@ -13,6 +13,7 @@ tags:
   - 时间序列
   - 空间统计
 slug: time-series-and-spatial-distribution-with-r-dynamically
+forum_id: 418893
 ---
 
 > 作者简介：陈少飞，美国Tango Management Consulting公司高级地理研究分析员，主要工作为在连锁零售/餐饮的商业地产咨询中，从空间优化的角度给客户制订选址方案，并预测店面销售额。05年开始接触R，主要研究R在地理信息科学方面的应用，包括可视化，空间回归，地理统计和空间最优化等。
@@ -27,6 +28,6 @@ slug: time-series-and-spatial-distribution-with-r-dynamically
 
 结合开店数目的静态时序图，我们可以更直观的了解7-Eleven的扩张速度。
 
-![7-11](https://cos.name/wp-content/uploads/2012/12/7-11.png)
+![7-11](https://uploads.cosx.org/2012/12/7-11.png)
 
 该动画采用了R里的animation包，并得到了该包的作者谢益辉的指点。数据来自于现任美国7-Eleven市场规划部的总监，分析解读来自前任美国7-Eleven地产部副总裁。

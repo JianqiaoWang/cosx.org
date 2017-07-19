@@ -1,6 +1,5 @@
 ---
 title: "我国黄金期货市场的VaR风险度量——基于历史模拟法"
-description: "目前，典型的VaR的计算方法包括：历史模拟法、蒙特卡洛模拟法、方差-协方差法以近年来广为流行的Coplus方法。其中，历史模拟法和蒙特卡罗模拟法属于全值估计方法，其中历史模拟法的特色在于不需要对市场因子的统计分布进行假设，因此有希望较好地处理金融事件序列中的尖峰和厚尾现象。本文将采用历史模拟法以我国上海黄金期货交易所推出的au0901为研究对象，分析测度au0901的VaR值，最后用Kupiec方法对模型进行有效性检验。"
 date: '2010-04-14T21:38:38+00:00'
 author: 邓一硕
 categories:
@@ -11,6 +10,7 @@ tags:
   - 金融
   - 黄金期货
 slug: var-risk-measure-in-gold-futures-market-based-on-historical-simulation-method
+forum_id: 418813
 ---
 
 # 0.引言
@@ -63,7 +63,7 @@ VaR(Value at Risk)是上世纪90年代由JP·Morgan公司在风险矩阵中提�
 
 （3）完全评价法
 
-历史模拟法是一种非参数方法，因此无论资产或[投资](http://www.hudong.com/wiki/%E6%8A%95%E8%B5%84)组合的收益率是否为常态或线性，波动是否随时间而改变，皆可采用历史模拟法来衡量其[风险值](linkredwin('%E9%A3%8E%E9%99%A9%E5%80%BC'))。
+历史模拟法是一种非参数方法，因此无论资产或[投资](http://www.hudong.com/wiki/%E6%8A%95%E8%B5%84)组合的收益率是否为常态或线性，波动是否随时间而改变，皆可采用历史模拟法来衡量其风险值。
 
 2、  历史模拟法的缺点
 
@@ -97,7 +97,7 @@ VaR模型的检验方法有很多种，其中Kupiec（1995）提出的失败率�
 [<br /> ](https://cos.name/?attachment_id=)
 
 
-![](https://cos.name/wp-content/uploads/2010/04/yishuao-yield.png)
+![](https://uploads.cosx.org/2010/04/yishuao-yield.png)
 
 
   图2 收益率的序列图和收益率的直方图
@@ -117,7 +117,7 @@ VaR模型的检验方法有很多种，其中Kupiec（1995）提出的失败率�
 在应用历史模拟法时，本文选取的历史数据模拟长度为25，置信水平为95%。根据2.2中所述方法计算au0901的时变VaR值，将其与实际收益率对比如下:
 
 
-![图3  置信水平95%下的时变VaR值与实际收益率对比图](https://cos.name/wp-content/uploads/2010/04/yishuo-vaR-yield.png)
+![图3  置信水平95%下的时变VaR值与实际收益率对比图](https://uploads.cosx.org/2010/04/yishuo-vaR-yield.png)
 
 
 图3  置信水平95%下的时变VaR值与实际收益率对比图

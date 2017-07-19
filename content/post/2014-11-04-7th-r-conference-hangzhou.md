@@ -11,13 +11,14 @@ tags:
   - 工业应用
   - 杭州
 slug: 7th-r-conference-hangzhou
+forum_id: 419037
 ---
 
 中国R语言会议从2008年开始已经成功举办到第七届了，之前每年在北京和上海举办的会议都非常成功，大力推动了R语言在国内的蓬勃发展。从2014年起，广州将中国R语言会议的火种带到了华南。作为华东重镇、数据科学家的大本营之一，杭州也开始举办中国R语言会议，在阿里巴巴集团和统计之都的努力下、在杭州师范大学的大力支持下，终于将于2014年11月29日在杭州召开第七届中国R语言会议（杭州会场）的会议。<!--more-->
 
 除了统计之都主站，会务信息还会通过统计之都微信、微博([@统计之都](http://weibo.com/cosname))来发布，欢迎大家关注获取最新消息。
 
-![](https://cos.name/wp-content/uploads/2010/06/China-R-Logo.png)
+![](https://uploads.cosx.org/2010/06/China-R-Logo.png)
 
 会议的相关情况如下：
 
@@ -29,7 +30,7 @@ slug: 7th-r-conference-hangzhou
 
 杭州市余杭区杭州师范大学仓前校区，恕园7号楼艺术大厅。
   
-![仓前校区图片](https://cos.name/wp-content/uploads/2014/11/仓前校区图片.jpg)
+![仓前校区图片](https://uploads.cosx.org/2014/11/仓前校区图片.jpg)
 
 # 三、会议情况
 
@@ -62,7 +63,7 @@ slug: 7th-r-conference-hangzhou
   * 周宁奕（淘宝数据平台）：基于地图的数据可视展现
   * 郎大为（SupStat数据科学家）：地图可视化中的数据挖掘
 
-请下载会议手册的电子版获取更详细的内容：[第七届中国R语言（杭州会场）会议手册](https://cos.name/wp-content/uploads/2014/11/ChinaR2014HZ_Manual_V4.pdf)
+请下载会议手册的电子版获取更详细的内容：[第七届中国R语言（杭州会场）会议手册](https://uploads.cosx.org/2014/11/ChinaR2014HZ_Manual_V4.pdf)
 
 # 五、会议赞助
 

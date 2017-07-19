@@ -13,13 +13,14 @@ tags:
   - 机器学习
   - 陈天奇
 slug: interview-of-tianqi
+forum_id: 419088
 ---
 
 【COS编辑部按】受访者：[陈天奇](http://homes.cs.washington.edu/~tqchen/) 采访者：何通 编辑：王小宁
 
 简介：陈天奇，华盛顿大学计算机系博士生，研究方向为大规模机器学习。他曾获得KDD CUP 2012 Track 1第一名，并开发了SVDFeature，XGBoost，cxxnet等著名机器学习工具，是[Distributed (Deep) Machine Learning Common](https://github.com/dmlc/)的发起人之一。
 
-![3126784581353126432](https://cos.name/wp-content/uploads/2015/06/3126784581353126432.png)
+![3126784581353126432](https://uploads.cosx.org/2015/06/3126784581353126432.png)
 
 **何：你的本科在上海交大的ACM班就读，是怎么开始做机器学习研究的呢？**
 

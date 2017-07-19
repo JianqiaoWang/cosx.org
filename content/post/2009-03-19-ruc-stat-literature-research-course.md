@@ -11,6 +11,7 @@ tags:
   - 统计学院
   - 课程
 slug: ruc-stat-literature-research-course
+forum_id: 418780
 ---
 
 本页面为2009年春季中国人民大学统计学院《主文献研读》博士生课程网页，旨在提供课程信息通知、加强师生交流与讨论，请选课的同学定期注意页面的更新。请各位教授的弟子帮忙在课前预告或课后总结（Email给页面负责人），若老师同意公开课件，这里也可以上传课件；或以加密的方式上传。谢谢！
@@ -89,7 +90,7 @@ Pollard J.H. (1982), The expectation of life and its relationship to mortality, 
 
 第六讲幻灯片下载：
 
-  * [关于发展的指标、数据、应用（一）](https://cos.name/wp-content/uploads/2009/03/development-statistics-gao-minxue.ppt)
+  * [关于发展的指标、数据、应用（一）](https://uploads.cosx.org/2009/03/development-statistics-gao-minxue.ppt)
 
 第七讲小结：待发。
 

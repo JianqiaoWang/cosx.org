@@ -1,6 +1,5 @@
 ---
 title: "LDA主题模型简介"
-description: "主题模型是一种语言模型，是对自然语言进行建模，在信息检索中很有用。D. M. Blei在2003年（准确地说应该是2002年）提出的LDA（Latent Dirichlet Allocation）模型让主题模型火了起来，现在已经成为了主题建模中的一个标准。"
 date: '2010-10-08T17:55:53+00:00'
 author: 范建宁
 categories:
@@ -10,6 +9,7 @@ tags:
   - LDA
   - Topic Model
 slug: lda_topic_model
+forum_id: 418820
 ---
 
 上个学期到现在陆陆续续研究了一下主题模型（[topic model](https://en.wikipedia.org/wiki/Topic_model)）这个东东。何谓“主题”呢？望文生义就知道是什么意思了，就是诸如一篇文章、一段话、一个句子所表达的中心思想。不过从统计模型的角度来说， 我们是用一个特定的词频分布来刻画主题的，并认为一篇文章、一段话、一个句子是从一个概率模型中生成的。
@@ -30,7 +30,7 @@ LDA是一种[非监督机器学习](https://en.wikipedia.org/wiki/Unsupervised_l
   
 更形式化一点说，语料库中的每一篇文档与 `\(T\)`（通过反复试验等方法事先给定）个主题的一个多项分布相对应，将该多项分布记为 $\theta$。每个主题又与词汇表（vocabulary）中的  `\(V\)`个单词的一个多项分布相对应，将这个多项分布记为 `\(\phi\)`。上述词汇表是由语料库中所有文档中的所有互异单词组成，但实际建模的时候要剔除一些停用词（stopword），还要进行一些词干化（[stemming](https://en.wikipedia.org/wiki/Stemming)）处理等。`\(\theta\)` 和`\(\phi\)`分别有一个带有超参数（hyperparameter）`\(\alpha\)`和`\(\beta\)`的Dirichlet先验分布。对于一篇文档`\(d\)`中的每一个单词，我们从该文档所对应的多项分布`\(\theta\)`中抽取一个主题`\(z\)`，然后我们再从主题$z$所对应的多项分布`\(\phi\)`中抽取一个单词`\(w\)`。将这个过程重复`\(N_d\)`次，就产生了文档`\(d\)`，这里的`\(N_d\)`是文档`\(d\)`的单词总数。这个生成过程可以用如下的图模型表示：
 
-![LDA](https://cos.name/wp-content/uploads/2010/10/LDA.png) 
+![LDA](https://uploads.cosx.org/2010/10/LDA.png) 
   
 这个图模型表示法也称作“盘子表示法”（plate notation）。图中的阴影圆圈表示可观测变量（observed variable），非阴影圆圈表示潜在变量（latent variable），箭头表示两变量间的条件依赖性（conditional dependency），方框表示重复抽样，重复次数在方框的右下角。
 

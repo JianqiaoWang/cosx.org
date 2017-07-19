@@ -6,6 +6,7 @@ categories:
   - 推荐文章
   - 统计之都
 slug: a-statistical-view-of-deep-learning-ii-auto-encoders-and-free-energy
+forum_id: 419083
 ---
 
 原文链接：[http://blog.shakirm.com/2015/03/a-statistical-view-of-deep-learning-ii-auto-encoders-and-free-energy/](http://blog.shakirm.com/2015/03/a-statistical-view-of-deep-learning-ii-auto-encoders-and-free-energy/)
@@ -42,7 +43,7 @@ GDAEs方法的原理是观测空间上的扰动能增强编码器结果`$\mathbf
 
 **潜因子模型中的近似推理**
 
-![潜因子模型中的近似推理](https://cos.name/wp-content/uploads/2015/05/001.png)
+![潜因子模型中的近似推理](https://uploads.cosx.org/2015/05/001.png)
 <p style="text-align:center">
 图1 潜变量模型中编码器-解码器的推断过程
 </p>

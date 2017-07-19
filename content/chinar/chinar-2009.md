@@ -3,6 +3,7 @@ title: 第二届中国R语言会议
 description: 第二届中国R语言会议
 date: '2009-10-29T05:00:27+00:00'
 author: COS管理员
+forum_id: 418707
 ---
 
 继2008年第一届中国R语言会议之后，R语言的使用和发展得到了国内各界的广泛关注。为了进一步在国内推广R语言，加强各领域R语言使用者之间的交流，我们准备在2009年于北京和上海两个会场举办第二届中国R语言会议。目前会议正在筹备之中，请大家踊跃提议（留言或邮箱<useR-2009@cos.name>），谢谢。
@@ -69,11 +70,11 @@ author: COS管理员
 
 # 会议事宜——上海会场
 
-  ![第二届中国 R 语言会议 上海分会场 去logo](https://cos.name/wp-content/uploads/2010/01/2nd-Chinese-R-Conference-SH-poster1-wtuseR.jpg)
+  ![第二届中国 R 语言会议 上海分会场 去logo](https://uploads.cosx.org/2010/01/2nd-Chinese-R-Conference-SH-poster1-wtuseR.jpg)
 
-  ![第二届中国 R 语言会议 上海分会场 去logo](https://cos.name/wp-content/uploads/2010/01/2nd-Chinese-R-Conference-SH-poster2-wtuseR.jpg)
+  ![第二届中国 R 语言会议 上海分会场 去logo](https://uploads.cosx.org/2010/01/2nd-Chinese-R-Conference-SH-poster2-wtuseR.jpg)
 
-[](https://cos.name/wp-content/uploads/2009/10/2nd-Chinese-R-Conference-SH-poster1.jpg)
+[](https://uploads.cosx.org/2009/10/2nd-Chinese-R-Conference-SH-poster1.jpg)
 
 ## 一、会议时间
 

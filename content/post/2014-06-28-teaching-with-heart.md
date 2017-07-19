@@ -7,6 +7,7 @@ categories:
   - 统计之都
   - 职业事业
 slug: teaching-with-heart
+forum_id: 419022
 ---
 
 在过去的10年里，我们目睹了许多显赫的商人做出了愚蠢和冒险的决策，这些决策对全球经济和个人投资者都造成了严重的损失。例如在去年，一名摩根大通的无良交易员因为投资某些隐晦且复杂的金融衍生品而损失了58亿美元。随着这类行为变得越来越常见，大众已不再相信商业和金融机构能为他们的行为负责，这种不信任的情绪也损害了商学院以及那些获得MBA学位毕业生们的声誉。
@@ -49,7 +50,7 @@ slug: teaching-with-heart
 
 [蔡知令](http://gsm.ucdavis.edu/faculty/chih-ling-tsai)，加州大学戴维斯分校管理学院杰出教授和讲席教授。曾被MBA学生14次评选为年度教师。同时，他也是台湾国立大学管理学院的客座讲席教授。
 
-![tsai_web](https://cos.name/wp-content/uploads/2014/06/tsai_web.jpg)
+![tsai_web](https://uploads.cosx.org/2014/06/tsai_web.jpg)
 
 本文来自BizEd，翻译工作得到了蔡老师和的BizEd的许可和支持，特此感谢。
 

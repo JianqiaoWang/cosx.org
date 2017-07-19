@@ -1,4 +1,3 @@
-
 ---
 title: COS每周精选:Gadfly：Julia下ggplot2的雏形
 date: '2013-03-19T09:46:07+00:00'
@@ -9,6 +8,7 @@ categories:
 tags:
   - 每周精选
 slug: gadfly-ggplot2-in-julia
+forum_id: 418920
 ---
 
 本期投稿：[谢益辉](http://yihui.name/) [肖楠](http://www.road2stat.com/)

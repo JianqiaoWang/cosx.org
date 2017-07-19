@@ -14,6 +14,7 @@ tags:
   - 统计应用
   - 读书
 slug: embracing-statistical-challenges-in-the-information-technology-age
+forum_id: 419019
 ---
 
 本文略有修改，原文请点击[此处](http://blog.cos.name/taoshi/2014/05/12/%E6%9C%9D%E8%8A%B1%E5%A4%95%E6%8B%BE%EF%BC%9A%E8%BF%8E%E6%8E%A5%E4%BF%A1%E6%81%AF%E6%97%B6%E4%BB%A3%E7%9A%84%E7%BB%9F%E8%AE%A1%E6%8C%91%E6%88%98/)
@@ -28,13 +29,13 @@ slug: embracing-statistical-challenges-in-the-information-technology-age
 
 文中指出统计当今面临的最大挑战是“统计思维与计算技术的相互结合”。其中提到的一个主要例子还就是我博士论文的课题之一：设计更好更快的算法来区分NASA的卫星在南北极拍摄到图片中的空中云层和地面冰雪。
 
-![fig_polar_cloud](https://cos.name/wp-content/uploads/2014/05/fig_polar_cloud.jpg)
+![fig_polar_cloud](https://uploads.cosx.org/2014/05/fig_polar_cloud.jpg)
 
 这工作前前后后持续了超过六年的时间。现在回头想想，从中学习到的和体会到的还是挺有好玩的，同时也发现当时还是很二的。文中提到的那些点点滴滴可谓是历历在目，处处伤心泪啊！
 
 遥想当年，数据好难得。在合作者的帮助下也等了三个月才拿到两幅云图。唯一知道的就是专家相信卫星拍到的图中背景是冰天雪地的北极苦寒之地，其中有些部分有云层覆盖。记得和彬两个人第一次盯着图看时，彬问：“哪里是云？”我答：“我（gui）哪（cai）知道。” 就这样的开始了那么多年研究。
 
-![fig_cloud_modis](https://cos.name/wp-content/uploads/2014/05/fig_cloud_modis.jpg)
+![fig_cloud_modis](https://uploads.cosx.org/2014/05/fig_cloud_modis.jpg)
 
 哎！说你呢：“一不小心就歪楼了。” “是，是，这里面的血泪和欢心故事改天另起个楼。。。“
 

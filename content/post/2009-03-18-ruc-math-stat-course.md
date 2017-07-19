@@ -11,6 +11,7 @@ tags:
   - 统计学院
   - 统计课程
 slug: ruc-math-stat-course
+forum_id: 418779
 ---
 
 这里是中国人民大学统计学院《数理统计》精品课程页面。负责人：吴喜之教授；课程性质：学科基础课。
@@ -42,12 +43,12 @@ slug: ruc-math-stat-course
 
 # 课件下载
 
-* [概率基础](https://cos.name/wp-content/uploads/2009/06/Probability.ppt)
-* [抽样和抽样分布](https://cos.name/wp-content/uploads/2009/06/Sampling_dist.ppt)（Sampling and Sampling Distribution）
-* [参数估计](https://cos.name/wp-content/uploads/2009/06/Parameter_est.ppt)
-* [贝叶斯估计](https://cos.name/wp-content/uploads/2009/06/Bayes.ppt)（Bayesian Estimation)
-* [假设检验](https://cos.name/wp-content/uploads/2009/06/Hypothesis_test.ppt)
-* [方差分析](https://cos.name/wp-content/uploads/2009/06/ANOVA.ppt)
+* [概率基础](https://uploads.cosx.org/2009/06/Probability.ppt)
+* [抽样和抽样分布](https://uploads.cosx.org/2009/06/Sampling_dist.ppt)（Sampling and Sampling Distribution）
+* [参数估计](https://uploads.cosx.org/2009/06/Parameter_est.ppt)
+* [贝叶斯估计](https://uploads.cosx.org/2009/06/Bayes.ppt)（Bayesian Estimation)
+* [假设检验](https://uploads.cosx.org/2009/06/Hypothesis_test.ppt)
+* [方差分析](https://uploads.cosx.org/2009/06/ANOVA.ppt)
 
 # 课程视频
 

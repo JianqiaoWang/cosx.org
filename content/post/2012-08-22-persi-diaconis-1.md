@@ -8,6 +8,7 @@ categories:
   - 统计计算
   - 贝叶斯方法
 slug: persi-diaconis-1
+forum_id: 418881
 ---
 
 作为统计之美的开篇，我一直想找一篇我非常愿意写的统计故事，尽管有很多，但都不能让我觉得可以发泄笔头之愤。最近在听贝叶斯统计课，刘军老师（哈佛大学统计系教授）提起了叫Persi Diaconis的人，他的故事和他的工作，这让我找到了写这篇文章的灵感。
@@ -23,7 +24,7 @@ Persi Diaconis 做了几个很有意思的工作，如洗牌多少次能够洗�
 
 有一天，一个来自了解关押囚犯心理的心理医生，来到斯坦福统计系，给出了如下一个囚犯写的密码信息：
 
-![MCMC_code](https://cos.name/wp-content/uploads/2012/08/MCMC_code.jpg)
+![MCMC_code](https://uploads.cosx.org/2012/08/MCMC_code.jpg)
 
 上图是囚犯写的密码信息的一部分，你可以看到很多出现频繁的字符。
 

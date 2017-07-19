@@ -2,6 +2,7 @@
 title: 第五届中国R语言会议
 date: '2012-09-29T12:27:04+00:00'
 author: 潘岚锋
+forum_id: 418710
 ---
 
 R是一门用于统计计算和作图的语言，其官方机构每年都会举办useR!会议，但会议地点主要局限在欧美地区。自2008年以来，在谢益辉的倡导下，中国已经成功举办了四届自行组织的R语言会议，极大促进了R语言在中国的推广和发展。在前四届会议的成功经验下，为了进一步加强各领域R语言使用者之间的交流，我们于2012年5月（北京会场）和2012年11月（上海会场）举办了第五届中国R语言会议。
@@ -10,7 +11,7 @@ R是一门用于统计计算和作图的语言，其官方机构每年都会举�
 
 # 会议事宜（北京会场）
 
-![第五届中国R语言会议（北京）手册封面](https://cos.name/wp-content/uploads/2012/04/China-R-2012_manual_cover.png)
+![第五届中国R语言会议（北京）手册封面](https://uploads.cosx.org/2012/04/China-R-2012_manual_cover.png)
 
 ## 一、会议时间
 
@@ -26,7 +27,7 @@ R是一门用于统计计算和作图的语言，其官方机构每年都会举�
 
 人大校内地图（点击看大图）：
 
-![人大校内地图](https://cos.name/wp-content/uploads/2010/06/RUCmap1.jpg)
+![人大校内地图](https://uploads.cosx.org/2010/06/RUCmap1.jpg)
 
 ## 三、会议演讲
 
@@ -94,7 +95,7 @@ R是一门用于统计计算和作图的语言，其官方机构每年都会举�
 
 ![上财交通地图](http://i1324.photobucket.com/albums/u608/lijian001/5th-R-Conference-Shanghai-map_zpsf8cf1f8c.png)
 
-会议手册下载：[ChinaR!2012SH_Manual_V6](https://cos.name/wp-content/uploads/2012/09/ChinaR2012SH_Manual_V6.pdf)
+会议手册下载：[ChinaR!2012SH_Manual_V6](https://uploads.cosx.org/2012/09/ChinaR2012SH_Manual_V6.pdf)
 
 ## 三、会议演讲
 

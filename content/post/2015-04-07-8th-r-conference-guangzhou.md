@@ -7,6 +7,7 @@ categories:
   - 新闻通知
   - 统计之都
 slug: 8th-r-conference-guangzhou
+forum_id: 419072
 ---
 
 **【COS编辑部按】北京、西安R语言会的报名会在近期放出，敬请关注。其中北京R语言会议将于6月6、7号举行，西安R语言会议将于4月18、19举行。我们将在统计之都主站、微博、微信公共号上及时发布信息，请大家及时关注！此外，下半年将会有上海、杭州、南昌等会场，敬请关注。**
@@ -15,7 +16,7 @@ R是用于统计分析、绘图的语言和操作环境，是属于GNU系统的�
 
 **[第八届R语言会议（广州会场）演讲报名](http://chinar-8th-gz.eventdove.com/event/101311/page/30436%20)和[参会者报名](http://chinar2015gz.vasee.com/)现已开放，欢迎各位踊跃报名参加，在5月于康乐园一起享受一场R语言的盛会！**
 
-![China-R-Logo-trans](https://cos.name/wp-content/uploads/2015/09/China-R-Logo-trans.png)
+![China-R-Logo-trans](https://uploads.cosx.org/2015/09/China-R-Logo-trans.png)
 
 **会议的相关情况如下：**
 
@@ -27,7 +28,7 @@ R是用于统计分析、绘图的语言和操作环境，是属于GNU系统的�
 
 **广州市海珠区新港西路135号中山大学南校区**梁銶琚堂
 
-![地图-广州](https://cos.name/wp-content/uploads/2015/04/地图-广州.png)
+![地图-广州](https://uploads.cosx.org/2015/04/地图-广州.png)
 
 # 三、会议情况
 

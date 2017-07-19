@@ -8,9 +8,10 @@ categories:
   - 职业事业
   - 高校课堂
 slug: interview-of-chutingjin
+forum_id: 419074
 ---
 
-[![SAMSUNG CAMERA PICTURES](https://cos.name/wp-content/uploads/2015/04/褚老师-300x225.jpg)](https://cos.name/wp-content/uploads/2015/04/-e1429669031759.jpg)
+[![SAMSUNG CAMERA PICTURES](https://uploads.cosx.org/2015/04/褚老师-300x225.jpg)](https://uploads.cosx.org/2015/04/-e1429669031759.jpg)
 
 【COS编辑部按】
 

@@ -17,6 +17,7 @@ tags:
   - 奇异值分解
   - 矩阵
 slug: svd-and-image-compression
+forum_id: 419004
 ---
 
 【2.18更新】：[楠神](https://github.com/road2stat)写了一个非常gelivable的[Shiny应用](https://github.com/road2stat/imgsvd)，用来动态展示图片压缩的效果随k的变化情况。[谢大大](http://yihui.name/)把这个应用放到了[RStudio的服务器](https://yihui.shinyapps.io/imgsvd/)上，大家可以点进去玩玩看了。
@@ -71,12 +72,12 @@ slug: svd-and-image-compression
 
 为了直观地来看看 SVD 压缩图像的效果，我们拿一幅 1000×622 的图片来做实验（图片来源：<http://www.bjcaca.com/bisai/show.php?pid=33844&bid=40>）
 
-![SVD演示图片，原图](https://cos.name/wp-content/uploads/2014/02/pic2.jpg)
-![svd_1](https://cos.name/wp-content/uploads/2014/02/svd_1.jpg)
-![svd_5](https://cos.name/wp-content/uploads/2014/02/svd_5.jpg)
-![svd_20](https://cos.name/wp-content/uploads/2014/02/svd_20.jpg)
-![svd_50](https://cos.name/wp-content/uploads/2014/02/svd_50.jpg)
-![svd_100](https://cos.name/wp-content/uploads/2014/02/svd_100.jpg)
+![SVD演示图片，原图](https://uploads.cosx.org/2014/02/pic2.jpg)
+![svd_1](https://uploads.cosx.org/2014/02/svd_1.jpg)
+![svd_5](https://uploads.cosx.org/2014/02/svd_5.jpg)
+![svd_20](https://uploads.cosx.org/2014/02/svd_20.jpg)
+![svd_50](https://uploads.cosx.org/2014/02/svd_50.jpg)
+![svd_100](https://uploads.cosx.org/2014/02/svd_100.jpg)
 
 可以看出，当取一个成分时，景物完全不可分辨，但还是可以看出原始图片的整体色调。取 5 个成分时，已经依稀可以看出景物的轮廓。而继续增加`\(k\)`的取值，会让图片的细节更加清晰；当增加到 100 时，已经几乎与原图看不出区别。
 

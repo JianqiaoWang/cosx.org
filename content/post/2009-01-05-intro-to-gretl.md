@@ -10,6 +10,7 @@ tags:
   - gretl
   - 计量经济学软件
 slug: intro-to-gretl
+forum_id: 418765
 ---
 
 gretl（**G**nu **R**egression，**E**conometrics and **T**ime-series **L**ibrary）是一款跨平台的计量分析软件。它是开源软件，用C语言写成，由 Allin Cottrell和Riccardo “Jack” Lucchettii 共同开发。<!--more-->
@@ -34,7 +35,7 @@ gretl（**G**nu **R**egression，**E**conometrics and **T**ime-series **L**ibrar
 # 界面截图
 
 
-![gretl界面截图](https://cos.name/wp-content/uploads/2009/01/gretl_screenshot.jpg)
+![gretl界面截图](https://uploads.cosx.org/2009/01/gretl_screenshot.jpg)
 <p style="text-align: center;">gretl界面截图</p>
 
 # 相关链接

@@ -10,13 +10,14 @@ tags:
   - 机器学习
   - 神经网络
 slug: a-statistical-view-of-deep-learning-iii-memory-and-kernels
+forum_id: 419087
 ---
 
 原文链接：<http://blog.shakirm.com/2015/04/a-statistical-view-of-deep-learning-iii-memory-and-kernels/>
 
 作者：[Shakir Mohamed](http://www.shakirm.com/)  翻译：丁维悦 审校：朱雪宁 何通 施涛 编辑：王小宁
 
-![methodTriangle1-300x300](https://cos.name/wp-content/uploads/2015/06/methodTriangle1-300x300.png)
+![methodTriangle1-300x300](https://uploads.cosx.org/2015/06/methodTriangle1-300x300.png)
 
 <p style="text-align:center">连接机器学习的回归方法</p>
 

@@ -9,10 +9,10 @@ tags:
   - 论坛
   - 贝叶斯
 slug: 2rd-bayesian-statistics-meeting
-description: 第二届中国贝叶斯统计学术论坛（天津，2014）将于2014年12月21日（周日）在天津财经大学召开，本次会议由天津财经大学中国经济统计研究中心、贝叶斯之道研究室主办，统计之都协办，本文为该会议详细的日程安排。
+forum_id: 419048
 ---
 
-![bayes-forum](https://cos.name/wp-content/uploads/2014/12/bayes-forum.png)
+![bayes-forum](https://uploads.cosx.org/2014/12/bayes-forum.png)
 
 第二届中国贝叶斯统计学术论坛（天津，2014）将于2014年12月21日（周日）在天津财经大学召开，本次会议由天津财经大学中国经济统计研究中心、贝叶斯之道研究室主办，统计之都协办，会议通知如下：
 
@@ -24,13 +24,13 @@ description: 第二届中国贝叶斯统计学术论坛（天津，2014）将于
 
 天津财经大学B座205教室（统计湖畔）
 
-![tjcd](https://cos.name/wp-content/uploads/2014/12/tjcd.png)
+![tjcd](https://uploads.cosx.org/2014/12/tjcd.png)
 
 # 三、论坛内容
 
 1763年12月23日，理查德·普莱斯在伦敦皇家学会会议上宣读了托马斯·贝叶斯的遗世之作——《An essay towards solving a problem in the doctrine of chances》(机遇理论中一个问题的解)，从此贝叶斯定理诞生于世。“虽然这个产生于18世纪的统计学学派在19世纪上半叶备受争议和冷落，但在20世纪，它却占据了数理统计学这块领地的半壁江山，撑起了统计学的半边天(陈希孺，2002)。
 
-2013年12月21日，“纪念贝叶斯定理250周年”暨首届中国贝叶斯统计学术论坛（天津，2013）在天津财经大学月牙报告厅成功举行（[相关特邀报告及培训资料下载](/2013/12/to-commemorate-the-250th-anniversary-of-bayes-theorem/)）。
+2013年12月21日，“纪念贝叶斯定理250周年”暨首届中国贝叶斯统计学术论坛（天津，2013）在天津财经大学月牙报告厅成功举行（[相关特邀报告及培训资料下载](/2013/12/1st-bayesian-statistics-meeting/)）。
 
 随着贝叶斯理论与应用在中国的日益普及，以及大数据时代的到来，第二届中国贝叶斯统计论坛将以“大数据与贝叶斯分析”为主题，上午嘉宾做特邀报告，下午进行贝叶斯分析免费培训。
 
@@ -38,7 +38,7 @@ description: 第二届中国贝叶斯统计学术论坛（天津，2014）将于
 
 **报告题目： Bayesian forecasting of demographic rates for small areas**
 
-![zhangjunni](https://cos.name/wp-content/uploads/2014/12/zhangjunni.png)
+![zhangjunni](https://uploads.cosx.org/2014/12/zhangjunni.png)
 
 张俊妮（北京大学）
 
@@ -46,7 +46,7 @@ description: 第二届中国贝叶斯统计学术论坛（天津，2014）将于
 
 **报告题目： 农村土地流转综合评估与大数据监测**
 
-![gubin](https://cos.name/wp-content/uploads/2014/12/gubin.png)
+![gubin](https://uploads.cosx.org/2014/12/gubin.png)
  
 谷彬（国家统计局）
 
@@ -54,7 +54,7 @@ description: 第二届中国贝叶斯统计学术论坛（天津，2014）将于
 
 **报告题目： R-web :大型多人在线数据分析协作平台(Massively Multi-analyst Online Data Analysis Platform)**
 
-![linzhenshun](https://cos.name/wp-content/uploads/2014/12/linzhenshun.png)
+![linzhenshun](https://uploads.cosx.org/2014/12/linzhenshun.png)
 
  林祯舜（CEO，辰智咨询/江苏先锋信息科技）
 
@@ -62,7 +62,7 @@ description: 第二届中国贝叶斯统计学术论坛（天津，2014）将于
 
 **报告题目：统计分析的第三范式：大数据与贝叶斯统计思维**
 
-![bayes-dao](https://cos.name/wp-content/uploads/2014/12/bayes-dao.png)
+![bayes-dao](https://uploads.cosx.org/2014/12/bayes-dao.png)
  
 [贝叶斯之道](https://bayes-stat.github.com)
 
@@ -86,7 +86,7 @@ description: 第二届中国贝叶斯统计学术论坛（天津，2014）将于
 
 # 五、交通和住宿提示
 
-![ditu](https://cos.name/wp-content/uploads/2014/12/ditu.png)
+![ditu](https://uploads.cosx.org/2014/12/ditu.png)
 
 ## （一）本市学友：
 

@@ -9,7 +9,7 @@ categories:
   - 统计软件
   - 软件应用
 slug: the-bulb-measurement-with-r
-description: "谈起测量灯泡体积，大家一定记得那个耳熟能详的故事。相传爱迪生发明灯泡的时候，让他的助手阿普顿测量一个灯泡的体积。助手用尺子进行了反复测量，并列出很很多公式，算了很久还没有算出来。爱迪生见罢，拿起那只灯泡，注满水后用量桶测出了体积。助手看了之后幡然醒悟，爱迪生主角光环大亮，随后开示了“不要钻牛角尖”、“时间就是生命”等人生哲理。"
+forum_id: 419065
 ---
 
 > 本文作者：姜晓东，博士毕业于上海交通大学，目前任教于湖南师范大学医学院，专业神经毒理学。
@@ -26,7 +26,7 @@ description: "谈起测量灯泡体积，大家一定记得那个耳熟能详的
 
 在有些版本的典故中有提到，爱迪生的那个助手名为阿普顿（Francis R. Upton）。在维基百科上也有这个人的词条。维基百科上的照片是这样子的，上面有他的签名。
 
-![Francis_Upton_from_wiki](https://cos.name/wp-content/uploads/2015/03/Francis_Upton_from_wiki.jpg)
+![Francis_Upton_from_wiki](https://uploads.cosx.org/2015/03/Francis_Upton_from_wiki.jpg)
 
 阿普顿从小就受到良好的教育，从美国的重点高中Phillips Academy毕业后，进入Bowdoin College攻读本科学位。之后进入普林斯顿大学，拿到硕士学位。毕业后，游学欧洲，在柏林度过了自己的academic year（美国的很多大学生在毕业后一年并不直接找工作，而是进行旅游、访学等活动了解社会，之后再决定自己的下一步，这一年也称为gap year），并在当时的物理学大牛Hermann von Helmholtz手下工作，参与了数学角度分析电路动力学的课程。
 
@@ -54,7 +54,7 @@ description: "谈起测量灯泡体积，大家一定记得那个耳熟能详的
 
 爱迪生公司生产的灯泡，现在在网上仍有仿古版本售卖，eBay上的这张图展示了其中一些型号的碳丝灯：
 
-![s-l1600](https://cos.name/wp-content/uploads/2015/03/s-l1600.jpg)
+![s-l1600](https://uploads.cosx.org/2015/03/s-l1600.jpg)
 
 阿普顿之所以进行复杂计算，做是由于灯泡形状不规则造成的，没有现成通用的公式。从上文中，我们知道阿普顿的计算方法由3步组成：
 
@@ -112,7 +112,7 @@ pic = ggplot(myaddr) + geom_raster(aes(x,y,fill=cols)) +
 print(pic)
 ```
 
-![setup](https://cos.name/wp-content/uploads/2015/03/setup.png)
+![setup](https://uploads.cosx.org/2015/03/setup.png)
 
 ## 2. 对曲线进行方程拟合
 
@@ -196,7 +196,7 @@ pic = pic + geom_line(aes(x,y), size=1.3, colour="yellow", data=mysmooth) +
 print(pic)
 ```
 
-![tu2](https://cos.name/wp-content/uploads/2015/03/tu21.png)
+![tu2](https://uploads.cosx.org/2015/03/tu21.png)
 
 可以看到，曲线完美拟合灯泡的轮廓。
 
